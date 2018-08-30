@@ -1,4 +1,7 @@
-.testStyle{
+.topStyle{
     padding-left:2em;
     padding-right:2em;
+    background-color: #dd5f64;
+    height:100%
 }
+

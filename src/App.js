@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
+import Card from "./components/Card";
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
           <Nav/>
         </header>,
         <main>
+          <Card/>
           <p></p>
         </main>,
         <footer>
