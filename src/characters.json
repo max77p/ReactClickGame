@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Stewie",
+    "image": "../../assets/images/stewie.png"
+  },
+  {
+    "id": 2,
+    "name": "Batman",
+    "image": "../../assets/images/batman.png"
+  },
+  {
+    "id": 3,
+    "name": "Mario",
+    "image": "../../assets/images/mario.png"
+  },
+  {
+    "id": 4,
+    "name": "Spongebob",
+    "image": "../../assets/images/spongebob.png"
+  },
+  {
+    "id": 4,
+    "name": "Powerpuff",
+    "image": "../../assets/images/powerpuff.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Powerpuff",
+    "image": "../../assets/images/powerpuff.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Powerpuff",
+    "image": "../../assets/images/powerpuff.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Powerpuff",
+    "image": "../../assets/images/powerpuff.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Powerpuff",
+    "image": "../../assets/images/powerpuff.jpg"
+  }
+]
