@@ -20,28 +20,13 @@
     "image": "../../assets/images/spongebob.png"
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Powerpuff",
     "image": "../../assets/images/powerpuff.jpg"
   },
   {
-    "id": 4,
-    "name": "Powerpuff",
-    "image": "../../assets/images/powerpuff.jpg"
-  },
-  {
-    "id": 4,
-    "name": "Powerpuff",
-    "image": "../../assets/images/powerpuff.jpg"
-  },
-  {
-    "id": 4,
-    "name": "Powerpuff",
-    "image": "../../assets/images/powerpuff.jpg"
-  },
-  {
-    "id": 4,
-    "name": "Powerpuff",
-    "image": "../../assets/images/powerpuff.jpg"
+    "id": 6,
+    "name": "Arthur",
+    "image": "../../assets/images/arthur.jpg"
   }
 ]
