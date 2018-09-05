@@ -1,7 +1,21 @@
 .topStyle{
-    padding-left:2em;
-    padding-right:2em;
+    /* padding-left:2em;
+    padding-right:2em; */
     background-color: #dd5f64;
     height:100%
 }
 
+.navItem{
+    text-align:center;
+    font-size:2em;
+    font-size:2vw;
+    display:inline-block;
+    color:white;
+    /* width:100%; */
+}
+.navRow{
+    display:flex;
+    justify-content: space-between;
+    margin:0;
+    padding:1em 0 1em 0;
+}

@@ -1,0 +1,14 @@
+.footer-copyright{
+    padding-left:1em !important;
+}
+
+.footerStyle{
+    display:flex;
+    flex-direction:row;
+}
+
+.footerStyle img{
+    height:1.5em;
+    width:2em;
+}
+
