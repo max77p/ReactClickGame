@@ -47,16 +47,16 @@
   {
     "id": 10,
     "name": "Goliath",
-    "image": "../../assets/images/gargoyle.png"
+    "image": "/assets/images/gargoyle.png"
   },
   {
     "id": 11,
     "name": "PinkPanther",
-    "image": "../../assets/images/pinkpanther.png"
+    "image": "/assets/images/pinkpanther.png"
   },
   {
     "id": 12,
     "name": "TomandJerry",
-    "image": "../../assets/images/tomjerry.png"
+    "image": "/assets/images/tomjerry.png"
   }
 ]
