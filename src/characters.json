@@ -2,61 +2,61 @@
   {
     "id": 1,
     "name": "Stewie",
-    "image": "../../assets/images/stewie.png"
+    "image": "assets/images/stewie.png"
   },
   {
     "id": 2,
     "name": "Batman",
-    "image": "../../assets/images/batman.png"
+    "image": "assets/images/batman.png"
   },
   {
     "id": 3,
     "name": "Mario",
-    "image": "../../assets/images/mario.png"
+    "image": "assets/images/mario.png"
   },
   {
     "id": 4,
     "name": "Spongebob",
-    "image": "../../assets/images/spongebob.png"
+    "image": "assets/images/spongebob.png"
   },
   {
     "id": 5,
     "name": "Powerpuff",
-    "image": "../../assets/images/powerpuff.png"
+    "image": "assets/images/powerpuff.png"
   },
   {
     "id": 6,
     "name": "Arthur",
-    "image": "../../assets/images/arthur.jpg"
+    "image": "assets/images/arthur.jpg"
   },
   {
     "id": 7,
     "name": "Arnold",
-    "image": "../../assets/images/arnold.jpg"
+    "image": "assets/images/arnold.jpg"
   },
   {
     "id": 8,
     "name": "Tommy",
-    "image": "../../assets/images/tommyrug.png"
+    "image": "assets/images/tommyrug.png"
   },
   {
     "id": 9,
     "name": "Johnny",
-    "image": "../../assets/images/johnnybravo.jpg"
+    "image": "assets/images/johnnybravo.jpg"
   },
   {
     "id": 10,
     "name": "Goliath",
-    "image": "/assets/images/gargoyle.png"
+    "image": "assets/images/gargoyle.png"
   },
   {
     "id": 11,
     "name": "PinkPanther",
-    "image": "/assets/images/pinkpanther.png"
+    "image": "assets/images/pinkpanther.png"
   },
   {
     "id": 12,
     "name": "TomandJerry",
-    "image": "/assets/images/tomjerry.png"
+    "image": "assets/images/tomjerry.png"
   }
 ]
