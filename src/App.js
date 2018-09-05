@@ -14,17 +14,24 @@ class App extends Component {
       score: 0,
       topScore: 0,
       message: "Click an image to begin!",
-      wasclicked: [1,4]
+      wasclicked: []
     };
     this.handleClick = this.handleClick.bind(this);
   }
 
   handleClick = id => {
-    var resetgame = false;
-    console.log(id);
+    let resetgame = false;
+    console.log("clicked id is:" + id);
     // console.log(...this.state.wasclicked);
+    this.setState(prevState => {
+      return {
+        wasclicked: [...prevState.wasclicked, id]
+      };
+    });
     if (!this.state.wasclicked.includes(id)) {
+      //if clicked image is not already clicked
       this.correctSelection();
+      console.log(this.state.wasclicked);
     } else {
       resetgame = true;
     }
@@ -33,38 +40,55 @@ class App extends Component {
     }
   };
 
-  correctSelection = () => {
+  correctSelection = prevState => {
     if (this.state.score + 1 === this.state.topScore) {
-      this.setState({
-        score: this.state.score + 1,
-        message: "You guessed correctly!"
+      this.setState((prevState, props) => {
+        return {
+          score: prevState.score + 1,
+          message: "You guessed correctly!",
+          characters: this.shuffle(players)
+        };
       });
     } else {
-      this.setState({
-        score: this.state.score + 1,
-        message: "You guessed correctly!"
+      this.setState((prevState, props) => {
+        return {
+          score: prevState.score + 1,
+          message: "You guessed correctly!",
+          characters: this.shuffle(players)
+        };
       });
     }
     if (this.state.score + 1 > this.state.topScore) {
-      this.setState({ topScore: this.state.topScore + 1 });
+      this.setState((prevState, props) => {
+        return {
+          topScore: prevState.topScore + 1,
+          characters: this.shuffle(players)
+        };
+      });
     }
   };
 
   incorrectSelection = () => {
-    this.setState({ score: 0, message: "You guessed incorrectly!", characters:this.shuffle(players)});
-
+    this.setState((prevState, props) => {
+      return {
+        score: 0,
+        message: "You guessed incorrectly!",
+        characters: this.shuffle(players),
+        wasclicked:[]
+      };
+    });
   };
 
-  shuffle = (array) => {
-
-    for(var i=array.length-1;i>0;i--){
-      var j=Math.floor(Math.random() * (i+1));
-      var temp=array[i];
-      array[i]=array[j];
-      array[j]=temp
-    }
-  console.log(array);
-  return array;
+  shuffle = array => {
+    var temp;
+    array.map((x, index) => {
+      var random = Math.floor(Math.random() * array.length);
+      temp = x;
+      array[index] = array[random];
+      array[random] = temp;
+    });
+    console.log(array);
+    return array;
   };
   // componentDidMount() {
   //   this.loadCharacs();
@@ -107,6 +131,7 @@ class App extends Component {
           score={this.state.score}
           topscore={this.state.topScore}
           message={this.state.message}
+          onClick={this.resetGame}
         />
       </header>,
       <main>

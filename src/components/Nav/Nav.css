@@ -2,7 +2,12 @@
     /* padding-left:2em;
     padding-right:2em; */
     background-color: #dd5f64;
-    height:100%
+    width:100%;
+    z-index:99;
+    position:fixed;
+    -webkit-box-shadow: 3px 10px 35px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 10px 35px -5px rgba(0,0,0,0.75);
+box-shadow: 3px 10px 35px -5px rgba(0,0,0,0.75);
 }
 
 .navItem{

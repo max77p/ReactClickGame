@@ -22,11 +22,41 @@
   {
     "id": 5,
     "name": "Powerpuff",
-    "image": "../../assets/images/powerpuff.jpg"
+    "image": "../../assets/images/powerpuff.png"
   },
   {
     "id": 6,
     "name": "Arthur",
     "image": "../../assets/images/arthur.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Arnold",
+    "image": "../../assets/images/arnold.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Tommy",
+    "image": "../../assets/images/tommyrug.png"
+  },
+  {
+    "id": 9,
+    "name": "Johnny",
+    "image": "../../assets/images/johnnybravo.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Goliath",
+    "image": "../../assets/images/gargoyle.png"
+  },
+  {
+    "id": 11,
+    "name": "PinkPanther",
+    "image": "../../assets/images/pinkpanther.png"
+  },
+  {
+    "id": 12,
+    "name": "TomandJerry",
+    "image": "../../assets/images/tomjerry.png"
   }
 ]
